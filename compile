@@ -1,0 +1,2 @@
+#|/bin/bash
+gcc -lncurses -o BrickBreaker brick-breaker.c && ./BrickBreaker
