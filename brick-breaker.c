@@ -73,7 +73,7 @@ void wallCollision(Ball *ball, int maxY,
 			(*numLives)--;
 		}
 
-		if (ball -> x <= LEFT_BOUNDARY) {
+		if (ball -> x <= LEFT_BOUNDARY || ball -> x == LEFT_BOUNDARY + 1) {
 			ball -> angle = SHALLOW_RIGHT;
 		}
 		else if (ball -> x >= RIGHT_BOUNDARY) ball -> angle = SHALLOW_LEFT;
