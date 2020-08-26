@@ -33,7 +33,7 @@ typedef struct block {
 	unsigned int y;
 	unsigned int color;
 	bool destroyed;
-	const char shape;
+	char shape;
 } Block;
 
 const char DEATH_MESSAGE[SENTENCE_LENGTH][LETTER_HEIGHT][LETTER_WIDTH] = {
